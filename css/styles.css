@@ -1,0 +1,108 @@
+body {
+    font-family: "Roboto", "sans-serif";
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.46;
+}
+.body-contents p,
+span {
+    font-family: "Roboto", "sans-serif";
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.46;
+}
+.main-background {
+    background-color: #2f303a;
+}
+.footer-background {
+    background-color: #2f303a;
+}
+.main-text {
+    color: #ffffff;
+    text-align: center;
+}
+.nav-link {
+    font-family: "Roboto", "sans-serif";
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196f3;
+    background-color: #ffffff;
+}
+.footer-adress {
+    font-family: "Roboto", "sans-serif";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}
+.footer-contact {
+    font-family: "Roboto", "sans-serif";
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}
+.web-logo {
+    font-family: "Raleway", "sans-serif";
+    color: #2196f3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: left;
+}
+.studio-logo {
+    color: #212121;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.38;
+}
+.studio-logo-ft {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.38;
+}
+.filters-button {
+    font-family: "Roboto", "sans-serif";
+    color: #212121;
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.39;
+    cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+.contact {
+    font-family: "Roboto", "sans-serif";
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    text-align: left;
+}
+.contact:hover,
+.contact:focus {
+    color: #2196f3;
+}
+.service-button {
+    font-family: "Roboto", "sans-serif";
+    color: #ffffff;
+    background-color: #2196f3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+}
