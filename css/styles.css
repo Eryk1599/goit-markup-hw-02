@@ -10,6 +10,8 @@ body {
     --sub-title-and-contact-color: #757575;
     --active-link-and-button-bg-color: #2196f3;
     --nav-color: #212121;
+    --main-and-ft-bg-color: #2f303a;
+    --team-and-filter-button-bg-color: #f5f4fa;
 }
 .body-contents p,
 span {
@@ -19,19 +21,18 @@ span {
     line-height: 1.17;
 }
 .body-contents h4 {
-    color: var(--sub-title-and-contact-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
 }
 .main-background {
-    background-color: #2f303a;
+    background-color: var(--main-and-ft-bg-color);
 }
 .team-backgroud {
-    background-color: #f5f4fa;
+    background-color: var(--team-and-filter-button-bg-color);
 }
 .footer-background {
-    background-color: #2f303a;
+    background-color: var(--main-and-ft-bg-color);
 }
 .main-text {
     color: var(--main-text-ft-active-bg-color);
@@ -75,25 +76,27 @@ span {
 }
 .web-logo {
     font-family: "Raleway", "sans-serif";
-    color: #2196f3;
+    color: var(--active-link-and-button-bg-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-align: left;
 }
 .studio-logo {
-    font-weight: 500;
+    color: #000000;
+    font-weight: 400;
     font-size: 26px;
     line-height: 1.38;
 }
 .studio-logo-ft {
-    color: #ffffff;
-    font-weight: 500;
+    color: var(--main-text-ft-active-bg-color);
+    font-weight: 400;
     font-size: 26px;
     line-height: 1.38;
 }
 .filters-button {
-    background-color: #f5f4fa;
+    font-family: "Roboto", "sans-serif";
+    background-color: var(--team-and-filter-button-bg-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -128,8 +131,7 @@ span {
     line-height: 1.17;
     text-align: center;
 }
-.image-title h4,
-h3 {
+.image-title h4 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
@@ -139,4 +141,13 @@ h3 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
+}
+.image-porfolio h3 {
+    font-size: 18px;
+    line-height: 2;
+}
+.image-portfolio span {
+    color: var(--sub-title-and-contact-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
