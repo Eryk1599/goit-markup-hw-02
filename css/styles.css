@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", "sans-serif";
-    color: #212121;
+    color: var(--nav-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.46;
@@ -12,6 +12,8 @@ body {
     --nav-color: #212121;
     --main-and-ft-bg-color: #2f303a;
     --team-and-filter-button-bg-color: #f5f4fa;
+    --ft-contact-color: rgba(255, 255, 255, 0.6);
+    --logo-color: #000000;
 }
 .body-contents p,
 span {
@@ -21,7 +23,7 @@ span {
     line-height: 1.17;
 }
 .body-contents h4 {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
 }
@@ -64,7 +66,7 @@ span {
     color: var(--active-link-and-button-bg-color);
 }
 .footer-contact {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--ft-contact-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
@@ -83,14 +85,16 @@ span {
     text-align: left;
 }
 .studio-logo {
-    color: #000000;
-    font-weight: 400;
+    font-family: "Raleway", "sans-serif";
+    color: var(--logo-color);
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.38;
 }
 .studio-logo-ft {
+    font-family: "Raleway", "sans-serif";
     color: var(--main-text-ft-active-bg-color);
-    font-weight: 400;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.38;
 }
@@ -142,7 +146,7 @@ span {
     font-size: 16px;
     line-height: 1.17;
 }
-.image-porfolio h3 {
+.image-portfolio h4 {
     font-size: 18px;
     line-height: 2;
 }
